@@ -1,0 +1,14 @@
+{
+  "name": "UIKit-Vue-Wordpress",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "serve": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-wordpress": "^0.3.0",
+    "gridsome": "^0.6.0",
+    "vue-lazyload": "^1.3.2"
+  }
+}
