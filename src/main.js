@@ -1,3 +1,4 @@
+import './index.js';
 import '~/assets/js/jquery.js';
 import '~/assets/js/uikit.min.js';
 import '~/assets/js/custom.js';

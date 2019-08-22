@@ -8,10 +8,23 @@
 `gridsome create my-gridsome-project wordpress`
 
 ## Guide & ToDo
+ error
+Fix build problem below seems to be jquery
+Failed to render /about
+TypeError: Cannot read property 'document' of undefined
+    at assets/js/app.893948e0.js:4736:13
+    at assets/js/app.893948e0.js:4725:7
+    at Object.<anonymous> (src/assets/js/jquery.js:2:212)
+    at Object.module.exports.module.exports (assets/js/app.893948e0.js:8557:30)
+    at __webpack_require__ (webpack/bootstrap:25:0)
+    at Module.<anonymous> (assets/js/app.893948e0.js:10565:14)
+    at __webpack_require__ (webpack/bootstrap:25:0)
+    at Module.<anonymous> (node_modules/gridsome/app/main.js:4:9)
+    at __webpack_require__ (webpack/bootstrap:25:0)
+    at Object.module.exports.module.exports (assets/js/app.893948e0.js:3544:18)
 
-Fix build problem
 
-Add your WordPress URL to the plugin options.
+Add your WordPress URL to the plugin options, runs dev server fine.
 
 ```js
 // gridsome.config.js
